@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My First App</string>
+
+    <!-- Spinner array for Kelas -->
+    <string-array name="kelas_array">
+        <item>MOBILE 1</item>
+        <item>MOBILE 2</item>
+        <item>MOBILE 3</item>
+    </string-array>
+</resources>

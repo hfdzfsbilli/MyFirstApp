@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#E1BEE7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My First App"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/inputAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat" />
+
+        <EditText
+            android:id="@+id/inputNoHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No. HP"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioLaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki-laki" />
+
+            <RadioButton
+                android:id="@+id/radioPerempuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perempuan" />
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinnerKelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/checkboxAmcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AMCC" />
+
+        <CheckBox
+            android:id="@+id/checkboxHimssi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIMSSI" />
+
+        <CheckBox
+            android:id="@+id/checkboxKoma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KOMA" />
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIMPAN"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>

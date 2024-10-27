@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#7F00FF">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My First App"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biodata Mahasiswa"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: Hafidz Fisabilli"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM: 21.01.4619"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prodi: D3 Manajemen Informatika"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnIsiIdentitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISI IDENTITAS LAINNYA"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#5A00CC"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
